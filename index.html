@@ -6,21 +6,32 @@
       name="Final Portfolio Project"
       content="Final project for Samantha Montgomery Portfolio. Web Developer, SheCodes, HTML, CSS, Javascript, React width=device-width, initial-scale=1.0"
     />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
-    <title>My Portfolio</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/style.css" />
+    <meta: name="description" content="SheCodes Bootstrap / Responsive Grids and
+    Images"/>
+    <title>
+      Samantha Montgomery/ Front End Developer / SheCodes Responsive Project
+    </title>
   </head>
-
   <body>
-    <nav class="navbar navbar fixed-top bg-light mb-2">
+    <nav class="text-center navbar navbar-expand-lg bg-dark fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Sam Montgomery</a>
+        <a class="navbar-brand" href="index.html" title="Name"
+          >Sam Montgomery</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -35,96 +46,80 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="index.html"
+                title="Home"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="about.html" title="About Me"
+                >About me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">My Projects</a>
+              <a
+                class="nav-link"
+                class="contact-link"
+                href="about.html#contact"
+                title="Contact"
+                >Contact me</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="animation">
-      <h1>Samantha Montgomery</h1>
-      <h2>Front End Web Developer based in the United States</h2>
-      <div class="circle">
-        <div class="text">Samantha Montgomery-Front End Web Developer-</div>
-      </div>
+    <h1 class="text-center mb-3">Sam Montgomery</h1>
+    <h3 class="text-center">
+      🇺🇸 Front-end developer, based in The United States
+    </h3>
+    <div class="navigation-links">
+      <a class="contact-link" href="about.html#contact" title="Contact"
+        >Contact me</a
+      >
+      <a class="about-link" href="about.html" title="About">About me</a>
     </div>
     <div class="container">
       <div class="row mt-5 mb-5">
-        <div class="image col-6">
+        <div class="col-6 mb-3">
+          <div class="app-titles">Hair Braiding Project</div>
+          <p>
+            This was my first coding project. It was built using HTML, CSS and
+            basic Javascript functions. I learned alot during the building of
+            this page and found my passion for coding and creating web pages.
+          </p>
+        </div>
+        <div class="col-6 mb-3">
           <img
             src="src/images/braidingproject.png"
-            alt="Braiding Project Picture"
-            class="img-fluid rounded"
+            alt="Hair Braiding Project"
+            class="img-fluid rounded d-none d-sm-block"
           />
-        </div>
-        <div class="col-6">
-          <div class="app-titles mb-3">Yoga app</div>
-          <p class="paragraphs">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="yoga-link mt-5">
-            <a href="#" class="app-link text-white" title="Braiding Project Button"
-              >Launch Hair Braiding Project</a
-            >
-          </div>
         </div>
       </div>
       <div class="row mt-5 mb-5">
-        <div class="col-6 mb-3">
-          <div class="app-titles">7-Day Weather App</div>
-          <p class="paragraphs">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="weather-link mt-5">
-            <a href="#" class="app-link text-white" title="Weather App Button"
-              >Launch Weather App</a
-            >
-          </div>
-        </div>
-        <div class="image col-6 mb-3">
-          <img
-            src="src/images/WeatherApp.png"
-            alt="Weather Pic"
-            class="img-fluid rounded"
-          />
-        </div>
-      </div>
-
-      <div class="row mt-5">
-        <div class="image col-6">
-          <img
-            src="images/yogurt.png"
-            alt="Yogurt Pic"
-            class="img-fluid rounded"
-          />
-        </div>
         <div class="col-6">
-          <div class="app-titles">Yogurt App</div>
-          <p class="paragraphs">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
+          <img
+            src="src/images/weatherapp.png"
+            alt="Weather App Picture"
+            class="img-fluid rounded d-none d-sm-block"
+          />
+        </div>
+        <div class="col-6 mb-3">
+          <div class="app-titles">Weather App</div>
+          <p>
+            This was my second coding project in the form of a weather app. I
+            built this app using HTML, CSS and Javascript. I also learned to use
+            API Keys and geolocation during the construction of this app. It is
+            interactive and displays the current weather conditions as well as
+            the 7-day forecast.
           </p>
-          <div class="yogurt-link mt-5">
-            <a href="#" class="app-link text-white" title="Yogurt Button"
-              >Launch Yogurt App</a
-            >
-          </div>
         </div>
       </div>
+    </div>
     <footer>
       <span class="code-title">Open-Source Code</span> By
       <span
