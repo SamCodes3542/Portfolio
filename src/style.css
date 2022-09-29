@@ -215,6 +215,9 @@ footer {
   img {
     display: block;
   }
+  footer {
+    text-align: center;
+  }
 
   .paragraphs,
   .app-titles,
