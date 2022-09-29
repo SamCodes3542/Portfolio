@@ -39,7 +39,7 @@ p {
   margin-top: 5px;
 }
 footer {
-  position: fixed;
+  position: relative;
   bottom: 10px;
   left: 10px;
 }
