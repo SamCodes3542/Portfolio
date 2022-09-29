@@ -89,6 +89,15 @@ footer {
   font-size: 48px;
   font-weight: 500;
 }
+.app-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  margin-top: 10px;
+}
 
 .nav-link {
   color: #f1cc9b;
