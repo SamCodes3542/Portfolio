@@ -58,10 +58,13 @@ footer {
   width: 240px;
   text-align: center;
 }
+.about-me {
+  margin: 0 auto;
+}
 .about-me-intro {
-  display: inline-block;
+  display: block;
   width: 50%;
-  align-items: center;
+  text-align: center;
 }
 
 .contact-link,
