@@ -5,6 +5,7 @@
 }
 
 body {
+  font-family: "Aref Ruqaa Ink", serif;
   background-attachment: fixed;
   margin: 0px auto;
   background-image: linear-gradient(to top right, #f1cc9b, brown);
@@ -16,7 +17,6 @@ body {
 
 h2,
 h3 {
-  font-family: "Aref Ruqaa Ink", serif;
   text-align: center !important;
   margin: 0px;
 }
@@ -47,7 +47,12 @@ p {
   line-height: 1.5;
   text-align: left;
   margin-top: 5px;
-  font-family: "Aref Ruqaa Ink", serif;
+}
+
+footer {
+  position: relative;
+  bottom: 15px;
+  left: 10px;
 }
 
 .current-project-link {
@@ -57,12 +62,6 @@ p {
   border-radius: 80%;
   width: 190px;
   height: 100px;
-}
-
-footer {
-  position: relative;
-  bottom: 15px;
-  left: 10px;
 }
 .img-thumbnail {
   background-color: #ad4d52;
@@ -84,7 +83,7 @@ footer {
 .about-me {
   font-family: "Courgette", cursive;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 140px;
 }
 
 .about-me-intro {
