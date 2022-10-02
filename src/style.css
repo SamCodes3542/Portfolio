@@ -5,7 +5,8 @@
 }
 
 body {
-  margin: 0px;
+  background-attachment: fixed;
+  margin: 0px auto;
   background-image: linear-gradient(to top right, #f1cc9b, brown);
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,16 +16,18 @@ body {
 
 h2,
 h3 {
+  font-family: "Aref Ruqaa Ink", serif;
   text-align: center !important;
   margin: 0px;
 }
 
 h1 {
+  font-family: "Courgette", cursive;
   font-size: 76px;
   text-align: center !important;
   margin: 45px;
   font-weight: bolder;
-  padding-top: 10px;
+  padding-top: 100px;
 }
 
 h2 {
@@ -44,12 +47,25 @@ p {
   line-height: 1.5;
   text-align: left;
   margin-top: 5px;
+  font-family: "Aref Ruqaa Ink", serif;
+}
+
+.current-project-link {
+  border: 2px solid black;
+  box-shadow: 2px 4px rgb(240, 162, 162);
+  background-color: #ad4d52;
+  border-radius: 80%;
+  width: 190px;
+  height: 100px;
 }
 
 footer {
   position: relative;
-  bottom: 25px;
+  bottom: 15px;
   left: 10px;
+}
+.img-thumbnail {
+  background-color: #ad4d52;
 }
 
 .shadow {
@@ -59,18 +75,35 @@ footer {
 .p-2 {
   padding: 0.5rem !important;
 }
+
 .my-photo {
-  width: 240px;
+  width: 270px;
   text-align: center;
 }
+
 .about-me {
+  font-family: "Courgette", cursive;
   margin: 0 auto;
   padding-top: 100px;
 }
+
 .about-me-intro {
   display: block;
   width: 50%;
   text-align: center;
+}
+.work-inquiry {
+  text-align: center;
+}
+
+.projects-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ebb181;
+}
+
+.projects-link:hover {
+  color: black;
 }
 
 .contact-link,
@@ -103,6 +136,8 @@ footer {
 .app-titles {
   font-size: 48px;
   font-weight: 500;
+  font-family: "Courgette", cursive;
+  font-weight: bolder;
 }
 .app-link {
   border-radius: 4px;
@@ -186,12 +221,12 @@ footer {
 
 .name:hover {
   text-decoration: underline;
-  color: rgb(237, 241, 241);
+  color: rgb(1, 15, 15);
 }
 
 .code-title:hover {
   text-decoration: underline;
-  color: rgb(237, 241, 241);
+  color: rgb(1, 15, 15);
 }
 
 .fixed-top {
@@ -218,7 +253,7 @@ footer {
 @media (max-width: 600px) {
   h1 {
     font-size: 30px;
-    padding-top: 20px;
+    padding-top: 120px;
   }
 
   h2 {
@@ -234,6 +269,9 @@ footer {
   }
   footer {
     text-align: center;
+  }
+  .about-me {
+    padding-top: 180px;
   }
   .circle {
     display: block;
