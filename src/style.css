@@ -53,10 +53,23 @@ footer {
   position: relative;
   bottom: 15px;
   left: 10px;
+  padding-top: 120px;
+  font-weight: bolder;
 }
 .contact-list {
   text-align: center;
   font-size: 30px;
+  text-decoration: none;
+}
+.workpage-pics {
+  box-shadow: #5f4627 10px 10px 10px 10px;
+}
+
+.linkedin-link,
+.facebook-link,
+.instagram-link,
+.email-link {
+  text-decoration: none;
 }
 
 .collab-info,
