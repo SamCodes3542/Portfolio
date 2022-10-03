@@ -54,14 +54,38 @@ footer {
   bottom: 15px;
   left: 10px;
 }
+.contact-list {
+  text-align: center;
+  font-size: 30px;
+}
 
-.current-project-link {
+.collab-info,
+.collab-button {
+  text-align: center;
+}
+
+.collab-info {
+  font-size: 30px;
+  padding-top: 170px;
+}
+
+.collab-email {
+  text-decoration: none;
+  text-align: center;
+}
+
+.current-projects-link {
   border: 2px solid black;
   box-shadow: 2px 4px rgb(240, 162, 162);
+  color: #ad4d52;
   background-color: #ad4d52;
   border-radius: 80%;
   width: 190px;
   height: 100px;
+}
+
+.current-projects-button {
+  text-align: center;
 }
 .img-thumbnail {
   background-color: #ad4d52;
@@ -83,15 +107,12 @@ footer {
 .about-me {
   font-family: "Courgette", cursive;
   margin: 0 auto;
-  padding-top: 140px;
+  padding-top: 100px;
 }
 
 .about-me-intro {
   display: block;
   width: 50%;
-  text-align: center;
-}
-.work-inquiry {
   text-align: center;
 }
 
@@ -138,18 +159,24 @@ footer {
   font-family: "Courgette", cursive;
   font-weight: bolder;
 }
-.app-link {
+.app-link,
+.collab-email {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  margin-top: 10px;
+  margin-top: 7px;
+}
+
+.collab-button {
+  margin-bottom: 10px;
 }
 
 .nav-link {
   color: #f1cc9b;
+  font: 1rem;
 }
 
 .navbar-toggler {
@@ -160,8 +187,8 @@ footer {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   margin-right: 1rem;
-  margin-left: 8.25rem;
-  font-size: 1.25rem;
+  margin-left: 0.25rem;
+  font-size: 1rem;
   text-decoration: none;
   white-space: nowrap;
   color: #f1cc9b;
