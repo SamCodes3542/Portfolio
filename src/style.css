@@ -104,7 +104,8 @@ footer {
   text-align: center;
 }
 
-.about-me {
+.about-me,
+.contact-title {
   font-family: "Courgette", cursive;
   margin: 0 auto;
   padding-top: 100px;
